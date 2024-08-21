@@ -29,7 +29,7 @@ const Register = () => {
       password: password
     }
 
-    fetch('http://127.0.0.1:5000/register', {
+    fetch('https://greenthumb-backend-dwst.onrender.com/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
